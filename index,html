@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Forensics Investigation Lab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🔍 Digital Forensics Investigation Lab</h1>
+</header>
+
+<div class="container">
+
+    <div class="case-panel">
+        <h2>Case File</h2>
+
+        <div class="case-card">
+            <h3>Case #2026-001</h3>
+            <p>Employee Data Theft Investigation</p>
+        </div>
+
+        <button id="loadCaseBtn">
+            Load Evidence
+        </button>
+    </div>
+
+    <div class="evidence-panel">
+
+        <h2>Evidence</h2>
+
+        <div id="evidenceContainer"></div>
+
+        <h2>Investigation Timeline</h2>
+
+        <ul id="timeline"></ul>
+
+    </div>
+
+    <div class="analysis-panel">
+
+        <h2>Analysis Console</h2>
+
+        <div id="analysisOutput"></div>
+
+        <div class="flag-section">
+            <input
+                type="text"
+                id="flagInput"
+                placeholder="Enter Flag"
+            >
+
+            <button id="submitFlag">
+                Submit Flag
+            </button>
+        </div>
+
+        <div id="result"></div>
+
+        <h3>Score</h3>
+        <div id="score">0</div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
