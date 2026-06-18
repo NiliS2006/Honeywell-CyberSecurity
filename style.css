@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI,sans-serif;
+}
+
+body{
+    background:#0d1117;
+    color:white;
+}
+
+header{
+    background:#161b22;
+    text-align:center;
+    padding:20px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:1fr 2fr 1fr;
+    gap:20px;
+    padding:20px;
+}
+
+.case-panel,
+.evidence-panel,
+.analysis-panel{
+    background:#161b22;
+    padding:20px;
+    border-radius:10px;
+}
+
+.case-card{
+    background:#21262d;
+    padding:15px;
+    margin-top:10px;
+    border-radius:8px;
+}
+
+button{
+    margin-top:15px;
+    padding:10px;
+    width:100%;
+    border:none;
+    border-radius:6px;
+    background:#238636;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#2ea043;
+}
+
+.evidence-item{
+    background:#21262d;
+    margin-top:10px;
+    padding:12px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.evidence-item:hover{
+    background:#30363d;
+}
+
+#analysisOutput{
+    background:black;
+    color:#00ff00;
+    min-height:250px;
+    padding:10px;
+    overflow:auto;
+    border-radius:6px;
+    margin-bottom:15px;
+}
+
+.flag-section{
+    display:flex;
+    gap:10px;
+}
+
+.flag-section input{
+    flex:1;
+    padding:10px;
+}
+
+#timeline{
+    margin-top:15px;
+}
+
+#timeline li{
+    margin-bottom:10px;
+    padding:8px;
+    background:#21262d;
+    border-radius:5px;
+}
+
+#score{
+    font-size:30px;
+    margin-top:10px;
+    color:#00ff99;
+}
+
+.success{
+    color:#00ff99;
+}
+
+.fail{
+    color:#ff5555;
+}
